@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.nanianjinxiu.shamoxiayumod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "shamoxiayumod.refmap.json",
+  "mixins": [
+    "ShamoxiayuMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
